@@ -1,0 +1,7 @@
+h1, p{
+    color: darkred;
+    font-size: 15px;
+}
+h2, p{
+    background-color: lightblue;
+}
