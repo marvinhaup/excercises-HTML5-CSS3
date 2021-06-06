@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulartest</title>
+</head>
+<body>
+    <form action="form1.html" method="get">
+        Ihr Vorname:
+        <input type="text" name="vorname" size="10"><br><br>
+        Ihr Nachname:
+        <input type="text" name="nachname" size="10">
+        <select name="geschlecht" size="1">
+            <option value="weiblich">Weiblich</option>
+            <option value="männlich">männlich</option>
+            <option value="keineAngabe" selected>keine Angabe</option>
+        </select>
+    
+        <!--
+            <input type="radio" name="geschlecht" value="weiblich">Weiblich
+            <input type="radio" name="geschlecht" value="männlich">Männlich
+            <input type="radio" name="geschlecht" value="keineAngabe" checked>kein Angabe<br>
+        -->
+        
+        Interessen:<br>
+        <input type="checkbox" value="sport" name="interessen">Sport<br>
+        <input type="checkbox" value="kino" name="interessen">Kino<br>
+        <input type="checkbox" value="musik" name="interessen">Musik<br>
+        <input type="checkbox" value="theater" name="interessen">Theater<br>
+        <input type="checkbox" value="wissenschaft" name="interessen">Wissenschaft<br>
+    
+        <textarea name="kommentar" rows="5" cols="50" placeholder="Geben Sie ihren Kommentar ein!"></textarea><br>
+        <input type="submit" value="Formular abschicken">
+        <input type="reset" value="Werte zurücksetzen">
+    
+    
+        <input type="hidden" name="seite" value="form1">  
+    </form>
+</body>
+</html>

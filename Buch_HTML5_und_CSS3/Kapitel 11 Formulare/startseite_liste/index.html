@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <title>Unser Tierheim</title>
+        <meta charset="UTF-8">
+        <meta name="Description" content="Darstellung unsere Tierheims">
+        <meta name="keywords" content="Tierheim, entlaufene Tiere">
+        <meta name="author" content="Marvin Haupenthal">
+    </head>
+<body>
+    <header>
+        <h1>Navigationsmenü</h1>
+    </header>
+    <ul>
+        <li><a href="index.html">Startseite</a></li>
+        <li><a href="übung2auskapitel6/übung2.html">das Tierheim stellt sich vor</a></li>
+        <li><a href="spenden.html">unterstützen Sie unsser Tierheim</a></li>
+        <li><a href="adoption.html">geben Sie Tieren ein neues Zuhause</a></li>
+        <li><a href="kontakt.html">so erreichen Sie uns</a></li>
+    </ul>
+    <section>
+        <h2>Unsere Mission</h2>
+        <article>
+            <p>
+                Das Tierheim Bielefeld ist ein engagiertes Team, das sich das Wohl ihres
+                unserer Bewohner als Ziel gesetzt hat. <br>Unser <strong>Tierarzt</strong> zusammen mit
+                allen Mitarbeitern tun ihr Bestes um unseren Pflegefällen einen angenehmen <br>
+                Aufenthalt zu garantieren und zu einem neuen Zuhause zu verhelfen.
+            </p>
+        </article>
+    </section>
+    <section>
+        <p></p>
+        <h2>Kontaktaufnahme:</h2>
+        <form action="mailto:marvinhaup@gmail.com">
+            <table>
+                <tr>
+                    <td>Ihr Vorname:</td>
+                    <td><input type="text" name="vorname" size="10"></td>
+                </tr>
+                <tr>
+                    <td>Ihr Nachname:</td>
+                    <td><input type="test" name="nachname" size="10"></td>
+                </tr>
+                <tr>
+                    <td>Ihre Telefonnummer:</td>
+                    <td><input type="text" name="tel" size="10"></td>
+                </tr>
+                <tr>    
+                    <td>Ihr Mailadresse:</td>
+                    <td><input type="text" name="mail" size="10"></td>
+                </tr>
+            </table><br><br>
+        
+            Besitzen Sie selbst Tiere?<br>
+            <select name="besitztTiere">
+                <option value="0">Nein</option>
+                <option value="1">Ja, ein Tier</option>
+                <option value="2">Ja, zwei Tiere</option>
+                <option value="3+">Ja, drei oder mehr</option>
+            </select><br><br>
+
+
+            <input type="checkbox" name="interessen" value="adoption">
+            Ein Tier adoptieren<br>
+            <input type="checkbox" name="interessen" value="spenden">
+            Das Tierheim finanziell unterstützen<br>
+            <input type="checkbox" name="interessen" value="mitarbeit">
+            Ehrenamtliche Arbeit leisten<br>
+            <input type="checkbox" name="interessen" value="veranstaltungen">
+            Info-Veranstaltungen<br>
+
+            <h2>Unser Förderverein</h2><br>
+            <input type="radio" name="mitglied" value="mitglied" checked>
+            Ich bin bereits Mitglied<br>
+            <input type="radio" name="mitglied" value="mitgliedWerden">
+            Ich will Mitglied werden<br>
+            <input type="radio" name="mitglied" value="keinInteresse">
+            Kein Interesse<br>
+            
+            <textarea name="kommentar" cols="50" rows="5" placeholder="Haben Sie weitere Anmerkungen?"></textarea><br>
+            <input type="submit" value="Formular abschicken">
+            <input type="reset" value="Formular zurücksetzten">
+        </form>
+    </section>
+    
+</body>
+</html>
