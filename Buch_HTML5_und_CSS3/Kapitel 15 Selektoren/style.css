@@ -1,0 +1,29 @@
+.grün {
+    color:green;
+}
+
+.türkis {
+    color: turquoise;
+}
+
+.wichtig {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#letzterAbsatz {
+    font-style: italic;
+}
+
+a:link {
+    color:red;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color:red;
+    font-size: larger;
+}
