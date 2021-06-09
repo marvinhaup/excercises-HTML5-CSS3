@@ -1,0 +1,10 @@
+/*  größe bezieht sich auf das jeweilige elternelement
+.groesser {
+    font-size: 130%;
+}
+*/
+
+/* größe bezieht sich auf das wurzel-element */
+.groesser {
+    font-size: 3rem;
+}
