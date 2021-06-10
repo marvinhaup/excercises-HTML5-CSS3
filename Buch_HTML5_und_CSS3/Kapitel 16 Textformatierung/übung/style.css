@@ -1,0 +1,26 @@
+#hauptüberschrift {
+    font-family: Aqua;
+    font-size: 300%;
+}
+#absatz_1 {
+    font-family:"Lucida Console", Courier, monospace;
+}
+#zwischenüberschrift {
+    font-size: 200%;
+    text-decoration: overline underline wavy #722F37;
+    color: #00CED1;
+}
+.zentriert {
+    text-align: center;
+}
+}
+.stark {
+    font-weight: bold;
+}
+.sehr_stark {
+    font-weight: bolder;
+}
+#absatz_2 strong {
+    text-decoration: underline;
+    color: grey;
+}

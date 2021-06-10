@@ -1,9 +1,12 @@
 .linksbündig {
     text-align: left;
+    text-indent: 3cm;
 }
 .mittig {
     text-align: center;
+    text-indent: 4em;
 }
 .rechtsbündig {
     text-align: right;
+    text-indent: 25%;
 }
