@@ -1,0 +1,67 @@
+.blau {
+    color: blue;
+    font-size: 200%;
+}
+.türkis{
+    color: turquoise;
+    font-size: 200%;
+}
+.rot {
+    color: red;
+    font-size: 200%;
+}
+.gelb {
+    color: yellow;
+    font-size: 200%;
+}
+.grün {
+    color: green;
+    font-size: 200%;
+}
+.lila{
+    color: purple;
+    font-size: 200%;
+}
+.pink {
+    color: pink;
+    font-size: 200%;
+}
+.schwarz {
+    color: black;
+    font-size: 200%;
+}
+.hellblau {
+    color: lightblue;
+    font-size: 200%;
+}
+.hellgrün {
+    color: lightgreen;
+    font-size: 200%;
+}
+#absatz_1{
+    background-color: #ab34f3;
+}
+#absatz_2{
+    background-color: #ab34f4;
+}
+#link_ohne {
+    text-decoration: none;
+}
+#link_oberhalb {
+    text-decoration: overline;
+}
+#link_durch {
+    text-decoration: line-through;
+}
+.mehrere_1 {
+    font-size: 200%;
+    text-decoration: underline line-through overline red;
+}
+.mehrere_2 {
+    font-size: 200%;
+    text-decoration: underline overline wavy green;
+}
+.mehrere_3 {
+    font-size: 200%;
+    text-decoration: line-through blue dashed;
+}
