@@ -1,0 +1,13 @@
+body {
+    background-image: url("Weißkopfseeadler359x480.jpg");
+    background-repeat: no-repeat;
+    background-color: turquoise;
+    background-position: center top;
+}
+h1 {
+    background-color: darkturquoise;
+}
+p {
+    background-color: darkslateblue;
+    color: beige;
+}
