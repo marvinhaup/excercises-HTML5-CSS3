@@ -1,10 +1,17 @@
+html {
+    height:100%;
+}
+/*  Standard-Gradient (von oben nach unten)
 body {
-    background-image: url("stripes-repeating-background.jpg");
-    background-color: turquoise;
+    background-image: linear-gradient(aqua,aquamarine);
 }
-h1 {
-    color: beige;
+*/
+/*
+body {
+    background-image: linear-gradient(60deg, darkblue, gold, firebrick, lawngreen, indigo);
 }
-p {
-    color: beige;
+*/
+
+body {
+    background-image: radial-gradient(circle closest-side at 25% 40%, darkblue 10%, gold 50%, firebrick 90%);
 }

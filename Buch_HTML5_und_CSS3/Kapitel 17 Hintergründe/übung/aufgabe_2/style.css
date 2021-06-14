@@ -1,0 +1,10 @@
+body {
+    background-image: url(stripes-repeating-background.jpg);
+}
+#Hauptüberschrift {
+    background-color: beige;
+}
+#Absatz1, #Absatz3, #Absatz2 {
+    background-image: url(Website-Background.jpg);
+    color: floralwhite;
+}
