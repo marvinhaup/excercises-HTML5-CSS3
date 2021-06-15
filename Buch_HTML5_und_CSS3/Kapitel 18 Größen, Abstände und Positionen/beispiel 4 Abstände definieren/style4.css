@@ -1,0 +1,12 @@
+p, h1 {
+    border: solid 1px;
+    margin: 10px;
+    background-color: lightgray;
+    padding: 10px;
+}
+article{
+    border: solid 1px;
+    width: 300px;
+    background-color: orchid;
+    padding: 20px;
+}
