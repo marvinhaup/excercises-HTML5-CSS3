@@ -1,0 +1,10 @@
+article {
+    width: 40%; /* Breitenangabe jetzt relativ abhängig zur Fensterbreite */
+    min-height: 100px;
+    background-color: aquamarine;
+}
+aside {
+    width: 30%; /* Breitenangabe jetzt relativ abhängig zur Fensterbreite */
+    min-height: 80px;
+    background-color: orchid;
+}

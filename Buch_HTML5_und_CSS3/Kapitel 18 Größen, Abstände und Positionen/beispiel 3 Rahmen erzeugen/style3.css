@@ -1,0 +1,46 @@
+p {
+    border-top-style: dashed;
+    border-right-style: double;
+    border-bottom-style: dotted;
+    border-left-style: hidden;
+    width: 200px;
+} 
+/*
+oder Kurzschreibweise:
+border-style: dashed double dotted hidden;
+*/
+#Absatz1 {
+    border-style: dashed;
+    border-width: 1px;
+    border-color:cyan;
+    width: 300px;
+    min-height: 100px;
+}
+#Absatz2 {
+    border-style: dotted;
+    border-width: 3px;
+    border-color:darkred;
+    width: 300px;
+    min-height: 100px;
+}
+#Absatz3 {
+    border-style: double;
+    border-width: 5px;
+    border-color:darkblue;
+    width: 300px;
+    min-height: 100px;
+}
+#Absatz4 {
+    border-style: ridge;
+    border-width: 10px;
+    border-color:darkgreen;
+    width: 300px;
+    min-height: 100px;
+}
+#Absatz5 {
+    border-style: inset;
+    border-width: 30px;
+    border-color:fuchsia;
+    width: 300px;
+    min-height: 100px;
+}

@@ -1,0 +1,5 @@
+/* div besitzt andere default-Abstände, wie h1 und p */
+div {
+    border: solid 1px;
+    width: 200px;
+}

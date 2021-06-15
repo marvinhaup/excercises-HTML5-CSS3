@@ -1,0 +1,16 @@
+#überschrift {
+    width: 200px;
+    height: 100px;
+    background-color: turquoise;
+}
+#Absatz1 {
+    width: 400px;
+    height: 50px;
+    background-color: yellowgreen;
+}
+#Absatz2 {
+    width: 50px;
+    height: 300px;
+    background-color: blue;
+    color: cornsilk;
+}

@@ -1,0 +1,7 @@
+/*
+    Kurzschreibweise um Ränder zu erzeugen
+*/
+p {
+    border: solid 1px blue;
+    width: 200px;
+}

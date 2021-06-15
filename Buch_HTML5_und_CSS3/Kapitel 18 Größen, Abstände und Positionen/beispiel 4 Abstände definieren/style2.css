@@ -1,0 +1,6 @@
+/* mit festgelegtem Abstand */
+p, h1 {
+    border: solid 1px;
+    width: 200px;
+    margin: 0px; 
+} 

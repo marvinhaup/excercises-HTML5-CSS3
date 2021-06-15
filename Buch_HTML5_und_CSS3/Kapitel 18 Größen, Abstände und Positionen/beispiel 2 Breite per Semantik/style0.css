@@ -1,0 +1,10 @@
+article {
+    width: 400px;
+    min-height: 100px;
+    background-color: aquamarine;
+}
+aside {
+    width: 300px;
+    min-height: 80px;
+    background-color: orchid;
+}

@@ -1,0 +1,25 @@
+p {
+    border-style: solid;
+    width: 30%;
+    min-height: 100px;
+}
+#Absatz1 {
+    border-style: dashed;
+    width: 200px;
+}
+#Absatz2 {
+    border-style: dotted;
+    width: 200px;
+}
+#Absatz3 {
+    border-style: double;
+    width: 200px;
+}
+#Absatz4 {
+    border-style: ridge;
+    width: 200px;
+}
+#Absatz5 {
+    border-style: inset;
+    width: 200px;
+}
