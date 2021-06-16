@@ -1,0 +1,14 @@
+article {
+    width: 400px;
+    background-color: orchid;
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+aside {
+    width: 300px;
+    background-color: turquoise;
+    position: relative;
+    top: 100px;
+    left: 50px;
+}

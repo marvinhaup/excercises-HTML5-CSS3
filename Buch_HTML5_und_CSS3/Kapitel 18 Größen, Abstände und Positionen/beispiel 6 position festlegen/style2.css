@@ -1,0 +1,11 @@
+article {
+    width: 200px;
+    background-color: orchid;
+}
+aside {
+    width: 300px;
+    background-color: turquoise;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}

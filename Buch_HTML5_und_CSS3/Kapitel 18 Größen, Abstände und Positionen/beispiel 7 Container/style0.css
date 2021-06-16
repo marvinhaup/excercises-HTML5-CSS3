@@ -1,0 +1,17 @@
+article {
+    width: 600px;
+    border: solid 1px;
+    min-height: 450px;
+}
+.picture0 {
+    float: right;
+    margin: 10px;
+}
+.picture1 {
+    float: left;
+    margin: 10px;
+    clear: right;
+}
+h1 {
+    text-align: center;
+}
