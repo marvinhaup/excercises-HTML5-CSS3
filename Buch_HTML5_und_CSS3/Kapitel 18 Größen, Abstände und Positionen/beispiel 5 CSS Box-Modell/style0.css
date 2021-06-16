@@ -1,0 +1,16 @@
+p {
+    width: 200px;
+    background-color: lightgray;
+}
+h1 {
+    width: 200px;
+    background-color: aquamarine;
+    margin: 10px;
+    border: solid 5px red;
+    padding: 20px;
+}
+article {
+    background-color: orchid;
+    display: inline-block;
+    width: 270px;
+}
