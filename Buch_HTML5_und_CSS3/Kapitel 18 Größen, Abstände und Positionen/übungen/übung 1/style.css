@@ -1,0 +1,28 @@
+header {
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    background-color: palegreen;
+}
+h1 {
+    text-align: center;
+}
+#Bild0 {
+    float: left;
+}
+article {
+    width: 250px;
+    background-color: red;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+aside {
+    width: 250px;
+    background-color: springgreen;
+    position: absolute;
+    top: 200px;
+    left: 450px;
+}
