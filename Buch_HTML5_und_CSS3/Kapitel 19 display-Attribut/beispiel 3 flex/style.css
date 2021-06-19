@@ -1,0 +1,21 @@
+div {
+    font-size: 2em;
+    padding: 30px;
+    margin: 20px;
+}
+#Container {
+    display: flex;
+    flex-wrap: wrap;
+}
+#ErstesElement {
+    background-color: aqua;
+    flex: 1;
+}
+#ZweitesElement {
+    background-color: orchid;
+    flex: 2;
+}
+#DrittesElement {
+    background-color: lightblue;
+    flex: 3;
+}

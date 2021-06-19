@@ -1,0 +1,11 @@
+div {
+    background-color: aquamarine;
+    display: inline-block;
+}
+span {
+    background-color: orchid;
+}
+#Unsichtbar {
+    display: block;
+    visibility: hidden;
+}
