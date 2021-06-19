@@ -16,3 +16,9 @@ body {
     padding: 10px;
     background-color: brown;
 }
+/*
+Alternativ: umwandlung von blok-element zu inline-element
+div {
+    display: inline 
+}
+*/

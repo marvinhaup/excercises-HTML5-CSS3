@@ -1,15 +1,20 @@
-
-#FirstBold {
+b {
     display: block;
     font-weight: normal;
+}
+#FirstBold {
+    position: absolute;
+    top: 50px;
+    left: 100px;
     width: 300px;
     height: 200px;
     background-color: aqua;
     padding: 10px;
 }
 #SecondBold {
-    display: block;
-    font-weight: normal;
+    position: absolute;
+    top: 270px;
+    left: 200px;
     width: 600px;
     height: 400px;
     background-color: brown;
