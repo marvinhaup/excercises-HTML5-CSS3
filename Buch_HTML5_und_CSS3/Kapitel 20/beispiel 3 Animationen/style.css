@@ -1,0 +1,22 @@
+@keyframes beispiel {
+    /* beispielcode
+    from {width: 100px}
+    to {width: 200px}
+    */
+    0%  {width: 100px; background-color: aquamarine; top: 100px;}
+    20% {width: 400px; background-color: aquamarine; top: 100px;}
+    40% {width: 150px; background-color: blue; top: 100px;}
+    60% {width: 250px; background-color: blue; top: 100px;}
+    80% {width: 180px; background-color: orchid; top: 50px;}
+    100%{width: 200px; background-color: orchid; top: 150px;}
+}
+#DivElement1 {
+    width: 100px;
+    height: 60px;
+    background-color: aquamarine;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    animation-name: beispiel;
+    animation-duration: 3s;
+}
