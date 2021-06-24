@@ -1,0 +1,16 @@
+.Container {
+    height: 3000px;
+}
+.Box-1 {
+    height: 120px;
+    width: 120x;
+    background-color: skyblue;
+    border: 2px solid balck;
+
+    display: grid;
+    place-content: conter;
+
+    position: fixed;
+    top: 100px;
+    left: 200px;
+}
