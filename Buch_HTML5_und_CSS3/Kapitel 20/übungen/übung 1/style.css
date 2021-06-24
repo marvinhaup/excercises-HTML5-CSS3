@@ -1,0 +1,13 @@
+div{
+    background-color: brown;
+    height: 400px;
+    width: 420px;
+    padding: 10px;
+}
+p {
+    display: inline-block;
+    background-color: aqua;
+    transform: rotateZ(45deg);
+    position: relative;
+    top: 125px;
+}

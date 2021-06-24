@@ -27,5 +27,5 @@
     transition-timing-function: ease-in-out;
 }
 #DivElement2:hover {
-    transform: rotateX(180deg);
+    transform: rotateZ(180deg);
 }

@@ -1,0 +1,12 @@
+p {
+    background-color: blue;
+    display: inline-block;
+    color: azure;
+
+    position: relative;
+    top: 50px;
+    left: 100px;
+
+    transform: rotateZ(43200deg) scale3d(1.2,1.2,1.2);
+    transition: transform 10s;
+}

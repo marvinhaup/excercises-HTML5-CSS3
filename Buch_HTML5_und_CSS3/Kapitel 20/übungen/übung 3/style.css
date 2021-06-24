@@ -1,0 +1,24 @@
+@keyframes MyMove {
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(1440deg)}
+    50% {transform: rotate(1080deg); left: 100px;}
+    75% {transform: rotate(720deg); left: 100px; top: 600px;}
+    100% {transform: rotate(360deg); left: 100px; top: 600px;}
+}
+
+p {
+    background-color: blue;
+    display: inline-block;
+    color: azure;
+
+    position: relative;
+    top: 200px;
+    left: 400px;
+    padding: 15px;
+
+    animation-name: MyMove;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
