@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    word-wrap: break-word;
+}
+header, nav, article, footer {
+    width: 100%;
+    background-color: aqua;
+    padding: 20px;
+    border: 2px solid black;
+}
+header {
+
+}
+nav {
+
+}
+article {
+
+}
+footer {
+
+}
+
+@media only screen and (min-width: 768px) {
+    nav {
+        width: 30%;
+        float: left;
+    }
+    article {
+        width: 70%;
+        float: left;
+    }
+    #Container {
+        width: 70%;
+        margin: auto;
+    }
+}
